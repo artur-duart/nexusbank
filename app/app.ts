@@ -1,5 +1,5 @@
 import { Negotiation } from './models/negotiation.js';
 
-const negotiation = new Negotiation(new Date(), 10, 100);
+const negotiation = new Negotiation(new Date());
 
 console.log(negotiation.date);
